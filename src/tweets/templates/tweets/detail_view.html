@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+    
+{% block content %}
+    <div class="row">
+        <div class="col-sm-3 col-xs-12" style='background-color:yellow'>
+            {{object.user}}<br>
+        </div>
+        <div class="col-sm-9 col-xs-12" style='background-color:red'>
+            {{object.content}}<br>
+        </div>
+    </div>
+{% endblock content %}
+        <div class="col-sm-1" style='background-color:yello'>
+            {{object.timestamp}}
+        </div>
