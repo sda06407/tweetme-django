@@ -78,16 +78,16 @@
                 },
                 method:"GET",
                 success:function(data){
-                /*
+                
                     if(data.next){
                         next_tweet_url = data.next
                     }
                     else{
                         $("#loadmore").css("display", "none")
                     }
-                */
+                
 
-                    tweetList = data
+                    tweetList = data.results
                     parseTweet()
                     //console.log(data)
 
@@ -183,7 +183,7 @@
                 <div id='tweet-container'>
                     
                 </div>
-               <!-- <a href="#" id="loadmore">load more tweet</a> -->
+                <a href="#" id="loadmore">load more tweet</a> 
            </div>
 <!--
         {% for object in object_list %}

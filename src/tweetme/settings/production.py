@@ -25,7 +25,7 @@ SECRET_KEY = '#z3@6l1f2$&p)08g@i7bbh-mr9pl19+lg%v@q_p#cmi3-6go7#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [u'tweet-sda06407149722.codeanyapp.com']
 
 
 # Application definition
